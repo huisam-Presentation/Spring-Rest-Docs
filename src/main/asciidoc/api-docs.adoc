@@ -1,0 +1,38 @@
+= Person API
+[Samsung Cloud] - SamsungNotes;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+
+[[PersonGet]]
+== Person Get
+
+요청 예시
+include::{snippets}/person-get/http-request.adoc[]
+요청 헤더
+include::{snippets}/person-get/request-headers.adoc[]
+응답 예시
+include::{snippets}/person-get/http-response.adoc[]
+응답 필드
+include::{snippets}/person-get/response-fields.adoc[]
+
+[[PersonPost]]
+== Person Post
+
+요청 헤더
+include::{snippets}/person-post/request-headers.adoc[]
+요청 Body 타입
+include::{snippets}/person-post/request-fields.adoc[]
+요청 Body 예시
+include::{snippets}/person-post/request-body.adoc[]
+요청 예시
+include::{snippets}/person-post/http-request.adoc[]
+응답 헤더
+include::{snippets}/person-post/response-fields.adoc[]
+응답 Body
+include::{snippets}/person-post/response-body.adoc[]
+응답 Body Fields 설명
+include::{snippets}/person-post/response-fields.adoc[]
