@@ -1,5 +1,5 @@
 = Person API
-[Samsung Cloud] - SamsungNotes;
+huisam;
 :doctype: book
 :icons: font
 :source-highlighter: highlightjs
