@@ -109,7 +109,7 @@ Client와 여러 회의(?)를 통해서 `Spec` 문서를 작성! :pencil2: 하�
 
  ### 구현
 
-dependency 가져오는 방법 
+:blue_book: **dependency** 가져오는 방법 
 
 ```groovy
 plugins {
@@ -386,6 +386,28 @@ public class WebClientPersonControllerTest {
     }
 } 
 ```
+
+요렇게 만들어주시고~. 
+
+소스파일을 빌드해서 테스트를 성공적으로 돌리게 되면. 
+
+아래와 같이 html 파일이 만들어지는데요.!  
+
+<div>
+  <img src="img/generated.png" text-align="center" />
+</div>
+
+우리가 처음에 
+
+`static file`로 해당 `html`을 복사하는 기능을 추가했기 때문에. 
+
+실제 **view**로 랜더링할 수 있게 됩니다!!  
+
+<div>
+  <img src="img/restdoc.png" text-align="center" />
+</div>
+
+
 
 ### 단점은 존재
 
